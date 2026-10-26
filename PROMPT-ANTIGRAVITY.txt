@@ -1,0 +1,116 @@
+﻿Buat kerangka awal landing page NusaWeb untuk ujian praktik TJKT. Target: UMKM lokal (warung, kedai, laundry, bengkel, usaha rumahan). Ikuti spesifikasi berikut agar hasilnya dekat dengan desain yang sudah direncanakan.
+
+OUTPUT
+Buat index.html, style.css, script.js, dan assets/ berisi tiga foto lokal. HTML/CSS/JavaScript biasa, tanpa framework, build, backend, database, atau panel admin. Bisa dibuka langsung lewat index.html. Simpan di folder website-antigravity yang terpisah; jangan menimpa folder website. Buat kerangka baru berdasarkan spesifikasi, jangan menyalin seluruh kode jadi lalu menyebutnya generasi awal.
+
+DESAIN GLOBAL
+- Palet: hijau gelap #183c32, lime #d4f478, putih gading #fcfcf8, teks sekunder #6c7771, border #e0e5dc.
+- Font: Manrope untuk heading/logo, DM Sans untuk isi; fallback sans-serif.
+- Konten maksimal 1180px, rata tengah, margin sisi desktop 40px. Banyak ruang kosong, gaya bersih dan hangat.
+- Heading hero desktop 66px, weight 800, line-height 1.13, letter-spacing -3.5px. Heading section 36px, line-height 1.25.
+- Tombol hijau gelap, teks putih, radius 7px, padding 15px 23px, simbol panah kanan atas. Hover lebih terang, naik 3px, bayangan halus.
+- Kartu putih, border tipis, radius 10px. Label section kecil kapital dengan letter-spacing 1.8px. Aksen bintang dan centang.
+- Jangan gunakan tema ungu, neon, atau hero foto penuh layar.
+
+1. HEADER
+Tinggi 100px, lebar maksimal 1300px. Kiri logo nusaweb. tebal dengan titik hijau, didahului kotak hijau gelap 36px berisi huruf n dan panah lime. Tengah menu Home, Layanan, Portofolio, Kontak. Kanan tombol Mulai proyek dengan panah. Menu memakai anchor.
+
+2. HERO (id home)
+Dua kolom seimbang, gap 55px, padding atas 65px bawah 90px.
+KIRI:
+Label dengan titik hijau: WEBSITE TERJANGKAU UNTUK UMKM LOKAL.
+Judul dua baris: Website bagus. / Bisnis melaju.
+Kata melaju. diberi sorotan lime seperti persegi panjang agak miring di belakang bagian bawah teks; bintang kecil di sebelahnya.
+Paragraf: Punya warung, kedai, atau usaha rumahan? Kami bantu buat landing page dan daftar menu sederhana supaya pelanggan mudah lihat jualan dan pesan lewat WhatsApp.
+Tombol Konsultasi gratis menuju WhatsApp, link Lihat karya kami menuju portofolio.
+Catatan kecil dengan centang: Ceritakan kebutuhan Anda. Kita mulai dari sana.
+KANAN:
+Panel #eef1e7, tinggi 430px, radius 18px, pola grid halus 35px dan dua lingkaran garis dekoratif.
+Mockup browser HTML/CSS selebar 89%, miring -5 derajat dengan bayangan. Bar putih berisi tiga titik dan alamat your-next-big-thing.id.
+Isi mockup krem, logo Forma, navigasi kecil Space / Stories / Contact. Heading serif Make room / for better living, foto interior horizontal, teks kecil Thoughtful spaces. Extraordinary everyday.
+Label putih melayang kanan atas: Dirancang untuk tumbuh, miring 4 derajat.
+Label putih kiri bawah: Siap di semua layar, subteks Desktop, tablet, dan smartphone. Bintang hijau besar kanan bawah.
+
+3. STRIP MANFAAT
+Pita #f4f6ee dengan border atas bawah, susun sejajar: IDE ANDA, KAMI WUJUDKAN.; Desain responsif; Hosting & domain; Ramah mesin pencari; Dukungan personal. Gunakan bintang pemisah.
+
+4. LAYANAN (id layanan)
+Padding section 85px atas bawah. Label 01 / LAYANAN KAMI.
+Heading: Usaha lokal, mudah dikenal. / Jualan Anda, tampil online.
+Paragraf kanan: Kirim nama usaha, foto, harga, dan nomor WhatsApp. Kami susun jadi halaman yang rapi dan nyaman dibuka di HP.
+Tiga kartu sejajar, gap 20px, padding 25-29px. Ikon dalam kotak hijau muda, nomor kanan atas, heading, paragraf, tiga poin centang, link berpanah di bawah garis pemisah.
+01 Landing Page UMKM: satu halaman untuk warung, laundry, bengkel, atau usaha rumahan; foto, alamat, jam buka. Poin: Desain modern & responsif; Alamat & jam buka; Integrasi WhatsApp. Link Wujudkan website Anda.
+02 Menu & Katalog Digital: daftar makanan/minuman/produk beserta harga yang bisa dibagikan lewat link. Poin: Daftar menu & harga; Foto produk dari pemilik; Pesan lewat WhatsApp. Link Buat menu digital.
+03 Hosting & Update Ringan: upload ke hosting statis gratis dan ubah menu/harga/foto sesuai kebutuhan. Poin: Setup hosting statis gratis; Subdomain bawaan hosting; Update sesuai kebutuhan. Link Rawat website Anda.
+
+5. PORTOFOLIO (id portofolio)
+Latar #f0f3eb. Label 02 / PILIHAN KARYA. Heading Ide berbeda. / Hasil yang berkarakter. Paragraf contoh landing page kedai kopi dan jasa lokal.
+Dua preview sejajar tinggi 320px, radius 10px. Judul dan kategori di bawah, panah dalam lingkaran di kanan.
+- Titik Temu Coffee, kategori Landing page - Kuliner. Preview krem #eae0cf, teks serif cokelat, logo titik temu, heading Awali cerita. / Dengan kopi. Foto kopi kanan, ujung atas foto melengkung. Teks kecil A little pause. A better day.
+- Ruang Rapi, kategori Landing page - Jasa bersih rumah. Foto ruang kerja rapi dengan overlay gelap, label RUANG RAPI / JASA LOKAL, heading serif putih Rumah rapi. / Hati nyaman. Teks TANYA JASA VIA WHATSAPP.
+Catatan wajib: Portofolio di atas merupakan konsep desain untuk demonstrasi, bukan proyek klien nyata.
+Jangan mengarang klien, testimoni, atau angka keberhasilan.
+
+6. KEUNGGULAN
+Dua kolom. Kiri label 03 / KENAPA NUSAWEB?, heading Partner kerja. / Bukan sekadar / pembuat website. Dua baris terakhir warna #90a08a. Paragraf tentang mendengarkan kebutuhan usaha dan link Kenalan dengan kami.
+Kanan tiga baris bernomor dengan garis pemisah dan panah:
+01 Dikerjakan dengan kompeten: struktur kode rapi dan desain nyaman digunakan.
+02 Proses jelas, progres transparan: alur dan jadwal disepakati di awal.
+03 Dukungan yang personal: komunikasi langsung dan bahasa mudah dipahami.
+
+7. HARGA
+Latar #f5f6f0. Label 04 / INVESTASI DIGITAL. Heading Harga ringan buat usaha harian. Paragraf satu halaman rapi, nyaman di HP, dan terhubung WhatsApp.
+Tiga kartu:
+- HEMAT. Judul Mulai hadir online. Harga Rp150 besar + rb / sekali buat kecil. Untuk usaha yang butuh landing page ringkas. Poin: 1 halaman, hingga 4 bagian; Profil, alamat & jam buka; WhatsApp & 1 kali revisi. Tombol Pilih Hemat.
+- MENU & KATALOG. Unggulan dengan latar hijau gelap, teks putih, badge UNTUK JUALAN, tombol lime. Judul Tampilkan menu jualan. Harga Rp250 + rb / sekali buat. Untuk kedai, warung, dan toko kecil. Poin: 1 halaman, hingga 15 menu / produk; Foto, harga & tombol WhatsApp; Link lokasi & 2 kali revisi. Tombol Pilih Menu & Katalog.
+- UPDATE RINGAN. Judul Ganti menu? Bisa. Harga Rp25 + rb / permintaan. Untuk halaman yang sudah kami buat. Poin: Ubah maksimal 5 item konten; Pilih teks, harga, atau foto; Tanpa langganan bulanan. Tombol outline Minta Update.
+Catatan: Paket pembuatan termasuk setup hosting statis gratis dengan subdomain bawaan, mengikuti batas penyedia. Domain sendiri opsional dan dibayar terpisah. Teks dan foto disiapkan pemilik usaha; revisi mengikuti desain yang disepakati. Pemesanan melalui WhatsApp, tanpa keranjang, pembayaran online, atau panel admin.
+
+8. KONTAK (id kontak)
+Panel lime dalam container, radius 14px, padding 50px 55px, margin atas bawah 70px.
+Label PUNYA IDE? MARI NGOBROL.
+Heading Langkah digital Anda / dimulai dari halo. Kata halo memakai serif italic.
+Paragraf Ceritakan usaha dan menu yang mau ditampilkan. / Konsultasi awal gratis, tanpa komitmen.
+Tombol kanan Halo, NusaWeb! Bintang dekoratif besar lime lebih gelap di kanan bawah.
+
+9. FOOTER
+Garis atas, tiga kolom: logo dan slogan Website yang tepat. Langkah baru untuk bisnis Anda.; menu Jelajahi; alamat dan WhatsApp.
+Alamat: Jl. Melati Digital No. 12, Laweyan, Surakarta, Jawa Tengah 57148. Catatan Alamat fiktif untuk keperluan ujian.
+Link WhatsApp: 0896-6583-1166.
+Baris bawah dipisah garis: copyright tahun berjalan, NusaWeb. Proyek Ujian Praktik TJKT.; kanan Dibuat dengan ide baik & secangkir kopi.
+
+FOTO LOKAL
+Unduh ke assets, gunakan object-fit cover, alt relevan, lazy loading untuk portofolio:
+interior.jpg: https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1100&q=85
+coffee.jpg: https://images.unsplash.com/photo-1442512595331-e89e73853f31?auto=format&fit=crop&w=800&q=85
+workspace.jpg: https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1100&q=85
+Jika unduhan gagal, pakai foto relevan sejenis dan jelaskan penggantiannya.
+
+JAVASCRIPT DAN AKSESIBILITAS
+Konstanta WHATSAPP_NUMBER = '6289665831166' (nomor lokal 089665831166).
+Semua CTA konsultasi/footer membuka https://wa.me/6289665831166?text= ditambah encodeURIComponent dari pesan: Halo NusaWeb! Saya ingin konsultasi gratis tentang landing page atau menu digital untuk usaha saya. Bisa dibantu?
+CTA paket memakai pesan yang menyebut Hemat (Rp150.000), Menu dan Katalog (Rp250.000), atau Update Ringan (Rp25.000).
+Buka tab baru dengan rel noopener noreferrer. Hanya isi pesan, jangan mengirim otomatis.
+Smooth scroll anchor, fokus keyboard terlihat, hormati prefers-reduced-motion.
+Menu HP hamburger dengan aria-expanded, aria-controls, label buka/tutup; tutup saat link dipilih atau Escape ditekan.
+
+RESPONSIF
+Di bawah 1000px margin sisi 24px, gap lebih rapat, heading hero 49px.
+Di bawah 720px margin sisi 18px, header 78px, tombol header disembunyikan, menu menjadi hamburger. Hero satu kolom teks lalu mockup. Hero heading clamp sekitar 43-65px, heading section 30px. Layanan, portofolio, keunggulan, harga satu kolom. Strip manfaat wrap. Kontak bertumpuk. Footer dua kolom dan logo satu baris penuh.
+Pastikan tidak ada scroll horizontal pada lebar HP 360px. Dekorasi dan label mockup tidak boleh membuat halaman melebar.
+
+Selesai membuat, jelaskan file dan cara membukanya. Pertahankan sebagai kerangka awal yang bisa saya modifikasi manual pada HTML/CSS untuk tugas sekolah. Jangan mengklaim proses modifikasi manual atau ujian sudah dilakukan.
+
+
+PEMBARUAN DESAIN TERAKHIR (menggantikan detail lama yang bertentangan)
+- Hero menampilkan mockup Warung Bu Sari, alamat warung-bu-sari.contoh, label MENU HARI INI, heading Masakan rumahan. / Harga bersahabat., foto hidangan assets/food.jpg, contoh Nasi goreng Rp15.000 dan Es teh Rp4.000, serta teks PESAN VIA WHATSAPP. Hilangkan seluruh branding Forma dan teks Inggris pada hero.
+- Foto hidangan: https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=1000&q=85 . Foto interior lama boleh tetap sebagai aset cadangan.
+- Heading portofolio: Contoh sederhana. / Pas buat usaha sekitar. Bahasa contoh kedai seluruhnya Indonesia: KOPI & TEMAN NGOBROL; Lihat menu, cek harga, pesan lewat WhatsApp.
+- Hanya buat satu halaman HTML, index.html. Pada setiap kartu portofolio gunakan details/summary berlabel Lihat detail contoh untuk membuka 3 menu/layanan dan harga ilustrasi langsung di halaman yang sama. Tandai isinya sebagai contoh fiktif. Link Tanya desain seperti ini menuju #kontak. Jangan membuat halaman HTML tambahan atau tautan ke halaman contoh terpisah.
+- Keunggulan memakai heading Bikin website usaha / tanpa bikin bingung. Jelaskan bahan yang disiapkan: nama usaha, foto sendiri, menu/layanan, harga, alamat, jam buka, WhatsApp. Tiga poin: Rapi dan nyaman dibuka di HP; Lihat dulu, lalu beri masukan; Revisi jelas, update bisa satuan. Alur: kirim bahan, sepakati isi dan jadwal, cek preview, revisi sesuai paket, lalu online. Waktu pengerjaan disepakati setelah bahan diperiksa, jangan membuat janji durasi pasti.
+- Semua teks informasi asli dan ketentuan minimal 14px; label dekoratif/mockup minimal 12px. Perhatikan kontras. Semua tombol/link penting area sentuh minimal 44px.
+- Di HP footer satu kolom, tombol hero boleh wrap. Panel hero harus menahan dekorasi agar tidak ada scroll horizontal; badge tetap di dalam panel.
+- Isi href WhatsApp langsung di HTML agar tetap bekerja tanpa JavaScript; JavaScript menyesuaikan pesan paket.
+- Rapikan HTML, CSS, JavaScript dengan indentasi konsisten, bukan dipadatkan satu baris.
+
+- Ketentuan final: website satu halaman saja. Seluruh navigasi dan preview portofolio berada dalam index.html; gunakan anchor dan details/summary, tanpa pindah halaman.
